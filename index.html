@@ -1,0 +1,367 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>INTERVIEW TECHNIQUES</title>
+<link href="jquery-mobile/jquery.mobile-1.4.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.4.0.min.js" type="text/javascript"></script>
+<link href="index.css" rel="stylesheet" type="text/css"/>
+<script src="index.js" type="text/javascript"></script>
+
+</head> 
+<body> 
+
+<div data-role="page" id="page" data-theme="b">
+	<div data-role="header" data-theme="b">
+		<h1>!!!WELCOME!!!</h1>
+	</div>
+	<div data-role="content" class="content">	
+		<img src="images/intro.gif" alt="intro"/>	
+        <ul data-role="listview" data-inset="true" data-theme="b" data-dividertheme="a"> 
+					
+					
+					<li><a data-ajax="true" href="#page2" data-transition="slideup">Go For It</a></li> 
+					
+				</ul>	
+	</div>
+	
+</div>
+
+<div data-role="page" id="page2" data-theme="b">
+	<div data-role="header" data-position="fixed"><a href="#page" data-role="button" data-icon="back" data-iconpos="left" data-transition="slidedown">Back</a><a href="#page" data-role="button" data-icon="home" data-iconpos="right" data-transition="flip">Home</a>
+    
+		<h1>!!!WELCOME!!!</h1>
+        
+	</div>
+	<div data-role="content">	
+		<h2>Select an option</h2>
+		<ul data-role="listview" data-inset="true">
+		  <li><a href="#page3" data-transition="slideup">
+          <img src="images/aptitude.jpg">
+		    <h3>APTITUDE QUESTIONS</h3>
+		    <p>Aptitude Test consists of arithmetic,logical,analytical and english questions</p>
+		    </a></li>
+		  <li><a href="#page4" data-transition="slideup">
+          <img src="images/run.jpg">
+		    <h3>GROUP DISCUSSION</h3>
+		    <p>Group Discussion(GD) round is a kind of debate based on the recent topics </p>
+		    </a></li>
+		  <li><a href="#page5" data-transition="slideup">
+          <img src="images/tricky_interview_questions.jpg">
+		    <h3>TECHNICAL INTERVIEW</h3>
+		    <p>Consists of all the basic technical questions</p>	
+		    </a></li>
+		  <li><a href="#page6" data-transition="slideup">
+          <img src="images/HR.jpg">
+		    <h3>HR INTERVIEW</h3>
+		    <p>This is the last round wherein the interviewer will ask about your hobbies,your career aspirations etc.</p>
+		    </a></li>
+		  <li><a href="#page7" data-transition="slideup">
+          <img src="images/images.jpg">
+		    <h3>ADD OR DELETE QUESTIONS</h3>
+		    <p>This is under progress.</p>
+		    </a></li>
+	  </ul>
+        		
+	</div>
+	
+</div>
+
+<!--------------------------start of Aptitude test page--------------------------------------------------------->
+<div data-role="page" id="page3" data-theme="b">
+	<div data-role="header" data-position="fixed"><a href="#page2" data-role="button" data-icon="back" data-iconpos="left" data-transition="slidedown">Back</a><a href="#page" data-role="button" data-icon="home" data-iconpos="right" data-transition="flip">Home</a>
+    
+		<h1>!!!WELCOME!!!</h1>
+        
+	</div>
+	<div data-role="content">	
+    <div data-role="collapsible-set" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
+		<div data-role="collapsible">
+    <h4>QUANTITATIVE APTITUDE</h4>
+    <ul data-role="listview" data-inset="true">
+        <li><a href="#">Probability problems</a></li>
+		<li><a href="#">Permutation and combination</a></li>
+        <li><a href="#">Calendar problems</a></li>
+        <li><a href="#">Profit and loss</a></li>
+        <li><a href="#">Problems on train</a></li>
+        <li><a href="#">Problems on ages</a></li>
+        <li><a href="#">Partnerships</a></li>
+		<li><a href="#">Chain rule</a></li>
+        <li><a href="#">Time and work</a></li>
+        <li><a href="#">Boats and streams</a></li>
+    </ul>
+</div>
+
+<div data-role="collapsible">
+    <h4>LOGICAL REASONING</h4>
+    <ul data-role="listview" data-inset="true">
+        <li><a href="#">Statement and assumption</a></li>
+		<li><a href="#">Number series</a></li>
+        <li><a href="#">Statement and conclusion</a></li>
+		<li><a href="#">Logical problems</a></li>
+    </ul>
+</div>
+
+<div data-role="collapsible">
+    <h4>ANALYTICAL REASONING</h4>
+    <ul data-role="listview" data-inset="true">
+       	<li><a href="#">Blood relations</a></li>
+		<li><a href="#">Letter and symbol series</a></li>
+        <li><a href="#">Analogies</a></li>
+        <li><a href="#">Series completion</a></li>
+    </ul>
+</div>
+
+<div data-role="collapsible">
+    <h4>VERBAL ABILITY </h4>
+    <ul data-role="listview" data-inset="true">
+        <li><a href="#">Synonyms</a></li>
+        <li><a href="#">Antonyms</a></li>
+        <li><a href="#">English passage</a></li>
+    </ul>
+</div>
+</div>
+	</div>
+	
+</div>
+<!---------------------------------------end of aptitude test-------------------------------------------->
+<!---------------------------------------start of Group discussion------------------------------------------->
+
+<div data-role="page" id="page4" data-theme="b">
+	
+    	<div data-role="header" data-position="fixed"><a href="#page2" data-role="button" data-icon="back" data-iconpos="left" data-transition="slidedown">Back</a><a href="#page" data-role="button" data-icon="home" data-iconpos="right" data-transition="flip">Home</a>
+		<h1>!!!WELCOME!!!</h1>
+	</div>
+	<div data-role="content">	
+		<h1>The most common topics for GD round</h1>
+        <div data-role="collapsible">
+        <h3>Social Topics</h3>
+        <p class="gd_text">
+         Terrorism in India<br>
+Religion should not be mixed with politics<br>
+Should Smoking be Banned Completely?<br>
+Effects of Television on Youth<br>
+Love Marriages Vs Arranged Marriages<br>
+Are beauty contests degrading womanhood?<br>
+Films are corrupting the Indian Youth<br>
+Morals & Values among Indians is Degenerating<br>
+Censorship in Movies & Our Culture<br>
+Foreign Television Channels are Destroying Our Culture<br>
+With Media Publishing and Telecasting Trivia, Censorship is the Need of the Hour<br>
+Women are not fit for Defense Services</p>
+       	</div>
+        
+        <div data-role="collapsible">
+        <h3>General Interest</h3>
+        <p class="gd_text">
+         Rules & Regulation Breed Corruption<br>
+Do NGOs in India Really Work for Others OR Work for their Own Vested Interests?<br>
+Science Is A Boon Or Bane<br>
+Should Animals be used for Testing New Drugs & Medical Procedures?<br>
+Security Cameras & Privacy<br>
+Advertisements Cheat People, Hence Should Be Banned<br>
+Borderless World: A Threat?<br>
+Borderless World: A Myth or Reality?<br>
+Secularism has become a Tool to Justify the Wrongs done by the Minorities<br>
+What is the Difference between People who do Things Rightly and People who do Right Things?<br>
+Corruption is a Necessary Evil for Success in Any Sphere<br>
+Beauty Pageants are a Must<br>
+How to Deal with International Terrorism?<br>
+Are Peace and Non-Violence Outdated Concepts?<br>
+Indian Army as a Career Option<br>
+Capital Punishment should be Banned or Allowed?<br>
+Is Dependence on Computers a Good Thing?</p>
+       	</div>
+        
+        <div data-role="collapsible">
+        <h3>Creative Topics</h3>
+        <p class="gd_text">
+        Do Beauty and Brains Go Together?<br>
+Every Cloud has a Silver Lining<br>
+Rules are Meant to be Broken<br>
+Food Comes First, Ethics Later<br>
+Let Sleeping Dogs Lie<br>
+There is No Right Way of Doing the Wrong Thing<br>
+Is Love Precious or Poisonous?<br>
+Is God Male?<br>
+Good Things Always Come from Good Thinking<br>
+In Today's World, Everything is Uncertain except Death & Taxes<br>
+Men are from Mars; Women are from Venus<br>
+Cleanliness is a Fundamental Responsibility of an Indian Citizen<br>
+A Person should not be too honest; Straight Trees are cut first</p>
+       	</div>
+        
+        <div data-role="collapsible">
+        <h3>Education</h3>
+        <p class="gd_text">
+        Advantages of Co-education<br>
+Examinations - has it killed education<br>
+Do we really Need Education to be Successful?<br>
+Government Control in Higher Education is Interfering and Not Required<br>
+Privatization of Higher Education<br>
+Foreign Universities in India<br>
+E-Learning: A Substitute for Classroom Learning?<br>
+Is Reservation in Higher Education Only Alternative for Social Equality?<br>
+Private Educational Institutions: Good or Bad<br>
+Should Management Education be subsidized?<br>
+How effective are Indian B-schools?</p>
+       	</div>
+        
+        <div data-role="collapsible">
+        <h3>Sports</h3>
+        <p class="gd_text">
+        Did Sachin Tendulkar deserve Bharat Ratna?<br>
+        If Winning isn't everything, why do they Keep the Score?<br>
+Is T20 Cricket killing Real Cricketing Skills?<br>
+Are Cricketers to be blamed for Match Fixing?<br>
+Modern Day Sport in Industrialized Society is an Industry<br>
+Cricket as a National Obsession is a Detriment to Other Sports </p>
+       	</div>
+        
+        <div data-role="collapsible">
+        <h3>For further help:</h3>
+        <a href="http://www.indiabix.com/group-discussion/topics-with-answers/" target="new">CLICK HERE</a>
+       	</div>
+        
+        	
+	</div>
+	
+</div>
+
+<!---------------------------------------end of group discussion-------------------------------------------->
+<!---------------------------------------start of Technical test------------------------------------------->
+
+<div data-role="page" id="page5" data-theme="b">
+	
+    	<div data-role="header" data-position="fixed"><a href="#page2" data-role="button" data-icon="back" data-iconpos="left" data-transition="slidedown">Back</a><a href="#page" data-role="button" data-icon="home" data-iconpos="right" data-transition="flip">Home</a>
+		<h1>!!!WELCOME!!!</h1>
+	</div>
+	<div data-role="content">
+    	<h1>Basic Technical Questions</h1>	
+		<div data-role="collapsible-set">
+        <div data-role="collapsible">
+        <h3>Tell me something about OOPS concept</h3>
+        <h4>Encapsulation</h4>
+        <p>Encapsulation basically means wrapping up of data into one single capsule.
+           The basic example of encapsulation is a class which holds all types of data members. </p>
+        <h4>Data Abstraction</h4>
+        <p>Data abstraction basically means hiding the complexity of the data and displaying the relevant ones to the user.
+           In other words data hiding concept is used and it is achieved with the help of various access modifiers such as           public private,protected and default.</p>
+        <h4>Inheritance</h4>
+        <p>Inheritance means inheriting the properties of another class or classes.This ensures data reusability.
+            A class acquiring the properties of another class is called as inheritance.In this concept,there are two types 
+            of classes;a base class and a derived class.
+            Inheritance can divided into several categories viz:
+            1:Single level inheritance
+            2:Multiple inheritance.
+            3:Hierarchial inheritance.
+            4:Hybrid inheritance.
+            5:Multilevel inheritance.</p>
+        <h4>Polymorphism</h4>
+        <p>Polymorphism is a concept which simply states "one name multiple forms".
+            Polymorphism is of two types:
+            1:Compile time polymorphism(a.k.a early binding and static binding).
+            2:Runtime polymorphism(a.k.a late binding and dynamic binding).
+            Compile time polymorphism is done by method overloading or operator overloading and 
+            runtime polymorphism is done by method overriding and by using virtual function. </p>
+        <h4>Classes and Objects</h4>
+        <p></p>
+        <h4>Message Passing</h4>
+        <p></p>
+        </div>
+        
+        <div data-role="collapsible">
+        <h3>What do you mean by thread?</h3>
+        <p>Thread is a basic unit of cpu utilization.They are lightweight processes.<br>
+           A thread is similar to the sequential programs.A single thread also has a beginning, an end, a sequence, and at any given time during the runtime of the thread there is a single point of execution. However, a thread itself is not a program. It cannot run on its own, but runs within a program.<br>
+           </p>
+       	</div>
+        
+        <div data-role="collapsible">
+        <h3>SQL joins</h3>
+        <p>For this: </p><a href="http://www.w3schools.com/sql/sql_join.asp">CLICK HERE</a>
+       	</div>
+        
+        <div data-role="collapsible">
+        <h3>Difference between delete,truncate and drop keyword in sql</h3>
+        <h4>Delete</h4>
+        <p>Delete is a DML command<br>
+        The DELETE command is used to remove rows from a table. A WHERE clause can be used to only remove some rows. If no WHERE condition is specified, all rows will be removed. After performing a DELETE operation you need to COMMIT or ROLLBACK the transaction to make the change permanent or to undo it. Note that this operation will cause all DELETE triggers on the table to fire.</p>
+        <h4>Truncate</h4>
+        <p>Truncate is DDL command.<br>
+           TRUNCATE removes all rows from a table. The operation cannot be rolled back and no triggers will be fired. As such, TRUNCATE is faster and doesn't use as much undo space as a DELETE</p>
+        <h4>Drop</h4>
+        <p>Drop is a DDL command.<br>
+        The DROP command removes a table from the database. All the tables' rows, indexes and privileges will also be removed. No DML triggers will be fired. The operation cannot be rolled back.<br>
+        In other words it removes all the data from the database along with the schema definition. 
+
+</p>
+       	</div>
+        	
+        <div data-role="collapsible">
+        <h3>Normalization and denormalization  concept in sql</h3>
+        <p>Database normalization is the process of organizing the fields and tables of a relational database to minimize redundancy and dependency. Normalization usually compresses large tables into smaller tables.
+        Normalization can categorized into 1NF,2NF,3NF,BCNF.<br>
+        Denormalization is a reversed process of normalization.But the question arises why denormalization?Because if you want to modify the database schema,rather than making changes to all the smaller(normalized) tables we can just modify the denormalized big table and again normalize it.</p>
+       	</div>	
+        
+        <div data-role="collapsible">
+        <h3>Difference between abstract classes and interfaces.</h3>
+        <p>Abstract classes are the classes which are declared as abstract.On the other hand interfaces are just used for declaration.Abstract classes can also have non abstract methods whereas interfaces can't.A concrete class extends an abstract class but implements an interface.Interfaces can extend another interface.A class can implement multiple interfaces,thus following multiple inheritance concept.Whereas in abstract class,a concrete class can extend only one abstract class.</p>
+       	</div>
+
+		<div data-role="collapsible">
+        <h3>Tell me something about HTML5 and how it is different from HTML 4</h3>
+        <p>For this :</p> <a href="http://www.w3schools.com" target="new">CLICK HERE</a>       	</div>
+        
+        <div data-role="collapsible">
+        <h3>Tell me something about all string functions in java</h3>
+        <p>For this :</p> <a href="http://www.tutorialspoint.com/java/java_strings.htm" target="new">CLICK HERE</a>
+       	</div>
+        
+        <div data-role="collapsible">
+        <h3>What is garbage collection in java?</h3>
+        <p> Garbage collection (GC) is a form of automatic memory management. The garbage collector, or just collector, attempts to reclaim garbage, or memory occupied by objects that are no longer in use by the program.
+             In java objects are stored in heap.Garbage collection or the collector thread frees the objects which are no longer in use from the heap space.It is implicitly called by invoking the finalize() method.The programmer can also explicitly call it by using the system.gc() or runtime.gc() method.</p>
+       	</div>
+        
+        <div data-role="collapsible">
+        <h3>What is the difference between ip and tcp/ip protocol?</h3>
+        <p>The difference is that TCP is responsible for the data delivery of a packet and IP is responsible for the logical addressing. In other words, IP obtains the address and TCP guarantees delivery of data to that address.</p>
+       	</div>
+	</div>
+    </div>
+	
+</div>
+<!---------------------------------------end of Technical test-------------------------------------------->
+<!---------------------------------------start of HR Interview------------------------------------------->
+
+<div data-role="page" id="page6" data-theme="b">
+	
+    	<div data-role="header" data-position="fixed"><a href="#page2" data-role="button" data-icon="back" data-iconpos="left" data-transition="slidedown">Back</a><a href="#page" data-role="button" data-icon="home" data-iconpos="right" data-transition="flip">Home</a>
+		<h1>!!!WELCOME!!!</h1>
+	</div>
+	<div data-role="content">	
+		<h1>Basic HR questions</h1>
+        
+       	
+	</div>
+	
+</div>
+
+<div data-role="page" id="page7" data-theme="b">
+	
+    	<div data-role="header" data-position="fixed"><a href="#page2" data-role="button" data-icon="back" data-iconpos="left" data-transition="slidedown">Back</a><a href="#page" data-role="button" data-icon="home" data-iconpos="right" data-transition="flip">Home</a>
+		<h1>!!!WELCOME!!!</h1>
+	</div>
+	<div data-role="content">
+    <center>	
+    <img src="images/work-in-progress.jpg" width="500" height="394" alt="inprogress"> 
+    <center>
+    </div>
+	
+</div>
+
+</body>
+</html>

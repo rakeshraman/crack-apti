@@ -1,0 +1,13 @@
+@charset "utf-8";
+.content img
+{
+	margin:2% auto;
+	border:solid #00F 5px;
+	
+}
+
+.gd_text
+{
+	text-transform:capitalize;
+	font-style:oblique;
+	font-weight:200;}
